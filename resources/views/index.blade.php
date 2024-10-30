@@ -14,10 +14,10 @@
       <ul class="flex space-x-6 text-lg">
         <li><a href="#" class="hover:text-gray-400">Home</a></li>
         <li><a href="#" class="hover:text-gray-400">Shop</a></li>
-        <li><a href="#" class="hover:text-gray-400">About</a></li>
+        <li><a href="{{ route('about') }}" class="hover:text-gray-400">About</a></li>
         <li><a href="#" class="hover:text-gray-400">Contact</a></li>
       </ul>
-      <a href="#" class="hover:text-gray-400">Cart (0)</a>
+      <a href="#" class="hover:text-gray-400">Login</a>
     </div>
   </nav>
 
